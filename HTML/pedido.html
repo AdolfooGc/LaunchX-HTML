@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+
+</head>
+<body>
+    <img src="./assets/img/Logo Canela.png" alt="Logo Canelatascate" width="200px">
+    <h1>Aqui realiza el pedido</h1>
+
+    <form action="pedido.js">
+        <label for="Nombre">A nombre de quien seria su pedido</label> <br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"> 
+
+        <br><br>
+
+        <label for="Calle y numero">Ingresa direccion de entrega </label> <br>
+        <input type="text" id= "Calle y numero" name="Calle y numero" placeholder="Calle y numero"> 
+
+        <br><br>
+
+        <label for="tel1">Numero Telefonico</label><br>
+        <input type="tel" id="tel1" name="tel1" maxlength="10" placeholder="Ingrese Numero"><br><br>
+
+        <hr>
+
+        <h2>Roles a Elegir</h2>
+        <input type="checkbox" id="rol1" name="rol1" value="Rol">
+        <label for="Rol1">Rol individual</label>
+        <input type="number" id="rolCuantos" name="rolCuantos" placeholder="Cuantos?" max="5"><br>
+        <input type="checkbox" id="rol2" name="rol2" value="Chicos">
+        <label for="rol2">Charola 6 roles Chicos</label>
+        <input type="number" id="chicosCuantos" name="chicosCuantos" placeholder="Cuantos?"><br>
+        <input type="checkbox" id="rol3" name="rol3" value="Grandes">
+        <label for="rol3">Charola 6 roles Grandes</label>
+        <input type="number" id="grandesCuantos" name="grandesCuantos" placeholder="Cuantos?"><br>
+
+
+
+
+ 
+
+
+        <h2>Toppings Tradicionales a elegir</h2>
+
+        <input type="checkbox" id="topping1" name="topping1" value="Oreo">
+        <label for="topping1">Galleta Oreo</label><br>
+        <input type="checkbox" id="topping2" name="topping2" value="Chispas">
+        <label for="topping2">Galleta Chispas de Chocolate</label><br>
+        <input type="checkbox" id="topping3" name="topping3" value="Cajeta">
+        <label for="topping3">Cajeta</label><br>
+        <input type="checkbox" id="topping4" name="topping4" value="Lechera">
+        <label for="topping4">Lechera</label><br>
+        <input type="checkbox" id="topping5" name="topping5" value="Nuez">
+        <label for="topping5">Nuez</label><br>
+        <input type="checkbox" id="topping6" name="topping6" value="M&Ms">
+        <label for="topping6">M&Ms</label><br>
+        <input type="checkbox" id="topping7" name="topping7" value="Hershey Liquido">
+        <label for="topping7">Hershey Liquido</label><br>
+        <input type="checkbox" id="topping8" name="topping8" value="Glaseado Extra">
+        <label for="topping1">Glaseado Extra</label><br>
+
+        <h2>Toppings Premium a elegir</h2>
+
+        <input type="checkbox" id="topping9" name="topping1" value="Nutella">
+        <label for="topping1">Nutella</label><br>
+        <input type="checkbox" id="topping10" name="topping2" value="Kinder">
+        <label for="topping2">Chocolate Kinder</label><br>
+        <input type="checkbox" id="topping11" name="topping3" value="KitKat">
+        <label for="topping3">Chocolate KitKat</label><br>
+
+        <h2>Adornos a elegir</h2>
+        <input type="checkbox" id="adorno1" name="adorno1" value="Moño">
+        <label for="topping1">Moño</label><br>
+        <input type="checkbox" id="adorno2" name="adorno2" value="dedicatoria">
+        <label for="topping1">Dedicatoria</label>
+        <input type="text" id="dedicatoriaQue" name="dedicatoriaQue" placeholder="Escribe dedicatoria"><br>
+        <input type="checkbox" id="adorno3" name="adorno3" value="Sin nada">
+        <label for="topping1">Sin Nada</label><br>
+
+        <br><br>
+
+        <input type="reset"><br>
+        <input type="submit" value="Realizar Pedido"><br>
+
+
+        <table width="280" cellspacing="1" cellpadding="3"></table>
+       
+
+       
+    </form>
+
+    
+</body>
+</html>
